@@ -19,7 +19,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-  color: #51d8af;
+  color: #ffffff;
   outline: none;
   text-decoration: none;
 }
@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
 }
 
-#intro .intro-content {
+.intro-content {
   position: absolute;
   bottom: 0;
   top: 0;
@@ -188,25 +188,25 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-#intro .intro-content h2 {
+ .intro-content h2 {
   color: #623b2a;
   margin-bottom: 30px;
   font-size: 64px;
   font-weight: 400;
 }
 
-#intro .intro-content h2 span {
+ .intro-content h2 span {
   color: #e04e39;
   text-decoration: underline;
 }
 
 @media (max-width: 767px) {
-  #intro .intro-content h2 {
-    font-size: 34px;
+  .intro-content h2 {
+    font-size: 26px;
   }
 }
 
-#intro .intro-content .btn-get-started, #intro .intro-content .btn-projects {
+.btn-get-started, .btn-projects {
   font-family: "Raleway", sans-serif;
   font-size: 15px;
   font-weight: 400;
@@ -219,22 +219,22 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-#intro .intro-content .btn-get-started {
+.btn-get-started {
   background: #623b2a;
   border: 2px solid #623b2a;
 }
 
-#intro .intro-content .btn-get-started:hover {
+.btn-get-started:hover {
   background: none;
   color: #623b2a;
 }
 
-#intro .intro-content .btn-projects {
+.btn-projects {
   background: #e04e39;
   border: 2px solid #e04e39;
 }
 
-#intro .intro-content .btn-projects:hover {
+.btn-projects:hover {
   background: none;
   color: #e04e39;
 }
@@ -1105,4 +1105,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #call-to-action .section-header h2 {
   color: #fff;
+}
+
+.about {
+  background: url(http://konkurs.rgsu.net/templates/tx_eventx/images/icon-pattern-flip.png) no-repeat 100% 50%;
 }
