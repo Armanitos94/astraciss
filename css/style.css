@@ -19,7 +19,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-  color: #ffffff;
+  color: #e04e39;
   outline: none;
   text-decoration: none;
 }
@@ -147,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
-  height: 45px;
+  height: 50px;
 }
 
 @media (max-width: 768px) {
